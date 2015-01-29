@@ -35,17 +35,17 @@ Writing an accurate bug report is key to it being effective. Although some bugs 
 The classic example of a poorly written bug description is "This doesn't work". This is often unhelpul as it might not be obvious _how_ it is broken or what caused it to break in those specific circumstances. So how do we write an effective title? 
 
 
-TODO:
+OUTLINE:
 
 - what is a bug
 - what a bug is not
 - effective bug-reporting
--- writing good titles
--- what did you expect to happen?
--- what actually happened?
--- steps to reproduce
--- technical info (browser, platform, etc)
--- avoiding duplication
+	- writing good titles
+	- what did you expect to happen?
+	- what actually happened?
+	- steps to reproduce
+	- technical info (browser, platform, etc)
+	- avoiding duplication
 
 - bug severity
 - user acceptance testing
