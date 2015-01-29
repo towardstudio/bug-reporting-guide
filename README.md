@@ -44,25 +44,22 @@ If you click a link and expect to be taken to a certain page then mention the ex
 
 ### What actually happened?
 
-Tell us _exactly_ what happened, not "it didn't work". If there's an error message, what was it? It may look like gibberish but developers understand that gibberish. That's why they're always so grumpy!
+Tell us _exactly_ what happened, not "it didn't work". If there's an error message, what was it? It may look like gibberish but developers understand that gibberish. That's why they're always so grumpy! Can't describe something in words? Take a screenshot and attach it to the bug report. This can be exceptionally useful if the defect is visual in nature.
+
+### Steps to reproduce
+
+Obviously, we don't need to know that you had a cup of tea before clicking a link casued the bug but if you did anything else on the page (especially if its related) then mention that. If you clicked a particular button (where there are several), mention that. Put yourself in the developers shoes—they have to re-create your experience so be as descriptive as possible. If possible, re-create the bug yourself. This will allow you to identify the steps you took and make it easier to describe them. This is particularly important if the bug occurs in a system that is reasonably complex such as a lengthy form. Reproducing the bug yourself will also provide insight as to whether the bug is easily reproducable as it might not happen consistently and you will get a better idea of what you did that causes it to occur.
+
+### Provide technical information
+
+Which web browser you are using is probably the most important piece of information you can provide. As any web developer will tell you, the various incarnations of Internet Explorer are the most common web browsers where unexpected things can occur. Providing the version (e.g. Internet Explorer _8_) is immensley helpful. Whether or not you are using a PC or Mac, iPhone, iPad or Android device is also important information. 
+
+### Avoid duplication
+
+As a client, you are paying for the time spent fixing bugs so make sure to help your developers be as efficient as possible by avoiding duplicate bugs. Obviously, if there are a lot of bugs already reported by different people then you can't be expected to read through all reports. 
 
 
 
-
-
-
-OUTLINE:
-
-- what is a bug
-- what a bug is not
-- effective bug-reporting
-	- where did the bug occur
-	- writing good titles/descriptions
-	- what did you expect to happen?
-	- what actually happened?
-	- steps to reproduce
-	- technical info (browser, platform, etc)
-	- avoiding duplication
 
 - bug severity
 - user acceptance testing
