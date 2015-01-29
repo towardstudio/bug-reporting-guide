@@ -30,9 +30,25 @@ Often, there is can be a certain amount of ambiguity as to what a bug actually _
 
 Writing an accurate bug report is key to it being effective. Although some bugs may be very obvious to the observer, often there a number of factors that will cause a defect to occur inconsistently. Communicating your experiences in a succint manner is crucial to making the bug as easy as possible to reproduce and therefore fix.
 
-### Description
+The classic example of a poorly written bug summary or description is "This doesn't work". This is unhelpul as it might not be obvious _how_ the feature is broken or what caused it to break in _your specific circumstances_. Unless a product is unfinished, it is likely that the developer/s haven't knowingly shipped a feature that is broken. Different web browsers or even taking different steps can cause a bug to occur so it is important to give as much information as possible.
 
-The classic example of a poorly written bug description is "This doesn't work". This is often unhelpul as it might not be obvious _how_ it is broken or what caused it to break in those specific circumstances. So how do we write an effective title? 
+So how do we write an effective bug description? The key is to be accurate and descriptive with your information and not make any assumptions.
+
+### Where did the bug occur?
+
+Sometimes a widget that works on one page can fail on another. Provide a URL of the page it occured—just copy it from the address bar of your browser, this can contain really important information if the page is using 'querystrings' (developer talk for the weird nonsense that appears after a '?' in the URL). 
+
+### What did you expect to happen?
+
+If you click a link and expect to be taken to a certain page then mention the expected page. Stating the "wrong page" isn't as helpful as saying the "contact us page". If you entered a value in to a field and clicked "calculate" and got the wrong answer, what did you expect the value to be? What did you enter in to the field?
+
+### What actually happened?
+
+Tell us _exactly_ what happened, not "it didn't work". If there's an error message, what was it? It may look like gibberish but developers understand that gibberish. That's why they're always so grumpy!
+
+
+
+
 
 
 OUTLINE:
@@ -40,7 +56,8 @@ OUTLINE:
 - what is a bug
 - what a bug is not
 - effective bug-reporting
-	- writing good titles
+	- where did the bug occur
+	- writing good titles/descriptions
 	- what did you expect to happen?
 	- what actually happened?
 	- steps to reproduce
