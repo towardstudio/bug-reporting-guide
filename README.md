@@ -58,12 +58,3 @@ Which web browser you are using is probably the most important piece of informat
 
 As a client, you are paying for the time spent fixing bugs so make sure to help your developers be as efficient as possible by avoiding duplicate bugs. Obviously, if there are a lot of bugs already reported by different people then you can't be expected to read through all reports. 
 
-
-
-
-- bug severity
-- user acceptance testing
-- bug reporting procedure / sign off
-- notes on browser support/differences
-
-
